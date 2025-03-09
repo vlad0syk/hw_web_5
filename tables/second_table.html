@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Table</title>
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+    <table class="parent-table">
+        <tr>
+            <td colspan="2" class="table-cell">1-2</td>
+            <td class="table-cell third-cell">3</td>
+        </tr>
+        <tr>
+            <td class="table-cell">4</td>
+            <td colspan="2" rowspan="2">
+                <table class="child-table">
+                    <tr>
+                        <td class="table-cell">1</td>
+                        <td rowspan="3" class="table-cell">2-5-8</td>
+                        <td rowspan="2" class="table-cell child-cell">3-6</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" class="table-cell child-cell">4-7</td>
+                    </tr>
+                    <tr>
+                        <td class="table-cell">9</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="table-cell">7</td>
+        </tr>
+    </table>
+</body>
+
+</html>
