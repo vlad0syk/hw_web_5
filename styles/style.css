@@ -3,6 +3,8 @@
 body {
     font-family: 'JetBrains Mono', monospace;
     font-size: 14px;
+    margin-top: 160px;
+    width: 100%;
 }
 
 .parent-table {
